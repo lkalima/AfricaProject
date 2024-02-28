@@ -52,3 +52,48 @@ pages: Individual HTML pages for different sections:
 * home.html  
 templates: Reusable templates for page layout and content.  
 articles: Longer-form website content.  
+
+
+
+
+
+New File System
+root/ 
+├── assets/ 
+│   ├── fonts/
+│   ├── icons/
+│   ├── images/
+│   │   ├── encyclopedia/
+│   │   └── visualizations/
+│   └── videos/ 
+├── css/ 
+├── data/ 
+│   ├── cultural/
+│   ├── demographics/
+│   ├── historical/ 
+│   └── ... (add other categories as needed)
+├── js/ 
+│   ├── app.js (Main application logic)
+│   └── visualizations/ (Complex JavaScript visualization code)
+├── pages/ 
+│   ├── about.html 
+│   ├── articles/  (Moved here for unique structures)
+│   │   ├── article-1.html
+│   │   └── ...
+│   ├── blog/ 
+│   │   ├── index.html 
+│   │   └── posts/ 
+│   ├── contact.html 
+│   ├── data-bank/ 
+│   │   ├── index.html 
+│   │   └── visualizations/ (Simple, embedded visualizations) 
+│   ├── donate.html 
+│   ├── encyclopedia/ 
+│   │   └── topics/ 
+│   ├── help.html 
+│   └── home.html 
+├── templates/ 
+│   ├── base.html 
+│   ├── components/ 
+│   └── ... 
+└── ... (README.md, license, etc.) 
