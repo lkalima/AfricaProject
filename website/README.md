@@ -89,7 +89,7 @@ root/
 │   │   └── visualizations/ (Simple, embedded visualizations) 
 │   ├── donate.html 
 │   ├── encyclopedia/ 
-│   │   └── topics/ 
+│   │   └── topics/
 │   ├── help.html 
 │   └── home.html 
 ├── templates/ 
