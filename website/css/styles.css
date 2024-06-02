@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 90%);
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+}
+h1 {
+    text-align: center;
+    color: hsl(0, 0%, 25%);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+}
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar ul li {
+    float: left;
+}
